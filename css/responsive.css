@@ -1,0 +1,1190 @@
+/*======================================
+        TABLET
+======================================*/
+
+@media(max-width:991px){
+
+.nav-links{
+
+display:none;
+
+}
+
+.nav-right{
+
+display:none;
+
+}
+
+.menu-btn{
+
+display:block;
+
+}
+
+.logo img{
+
+height:46px;
+
+}
+
+}
+
+
+
+@media(max-width:991px){
+
+.header{
+
+    overflow:visible;
+
+}
+
+.nav-links{
+
+    position:absolute;
+
+    top:85px;
+    left:0;
+
+    width:100%;
+
+    background:#fff;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:25px;
+
+    padding:35px 0;
+
+    border-top:1px solid #eee;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+    transform:translateY(-20px);
+
+    opacity:0;
+
+    visibility:hidden;
+
+    transition:.35s;
+
+}
+
+.nav-links.active{
+
+    transform:translateY(0);
+
+    opacity:1;
+
+    visibility:visible;
+
+}
+
+.nav-right{
+
+    display:none;
+
+}
+
+.menu-btn{
+
+    display:block;
+
+    font-size:28px;
+
+    cursor:pointer;
+
+    color:#031C13;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*======================================
+        HERO RESPONSIVE
+======================================*/
+
+@media(max-width:991px){
+
+.hero{
+
+    padding:130px 0 80px;
+
+}
+
+.hero-wrapper{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:70px;
+
+}
+
+.hero-content{
+
+    width:100%;
+
+}
+
+.hero-image{
+
+    width:100%;
+
+    height:500px;
+
+    order:-1;
+
+}
+
+.hero-text{
+
+    text-align:center;
+
+}
+
+.hero-subtitle{
+
+    font-size:14px;
+
+    letter-spacing:2px;
+
+}
+
+.hero-text h1{
+
+    font-size:58px;
+
+    line-height:1.1;
+
+}
+
+.hero-text p{
+
+    max-width:650px;
+
+    margin:25px auto 35px;
+
+}
+
+.hero-buttons{
+
+    justify-content:center;
+
+}
+
+.hero-indicator{
+
+    display:none;
+
+}
+
+.hero-card{
+
+    right:30px;
+
+    bottom:25px;
+
+    width:280px;
+
+}
+
+.circle-1{
+
+    width:180px;
+
+    height:180px;
+
+}
+
+.circle-2{
+
+    width:120px;
+
+    height:120px;
+
+}
+
+.circle-3{
+
+    width:70px;
+
+    height:70px;
+
+}
+
+}
+
+
+/*======================================
+        MOBILE
+======================================*/
+
+@media(max-width:768px){
+
+.hero{
+
+    padding:110px 0 70px;
+
+    overflow:hidden;
+
+}
+
+.hero-wrapper{
+
+    gap:40px;
+
+}
+
+.hero-image{
+
+    height:340px;
+
+    border-radius:35px;
+
+}
+
+.hero-text{
+
+    text-align:center;
+
+}
+
+.hero-subtitle{
+
+    font-size:12px;
+
+    letter-spacing:2px;
+
+}
+
+.hero-text h1{
+
+    font-size:42px;
+
+    line-height:1.15;
+
+    margin:15px 0;
+
+}
+
+.hero-text p{
+
+    font-size:16px;
+
+    line-height:1.8;
+
+    margin:20px auto 30px;
+
+}
+
+.hero-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+}
+
+.btn-primary{
+
+    width:100%;
+
+    max-width:280px;
+
+    justify-content:center;
+
+}
+
+.btn-play{
+
+    width:60px;
+
+    height:60px;
+
+}
+
+.hero-card{
+
+    position:absolute;
+
+    left:50%;
+
+    bottom:-30px;
+
+    transform:translateX(-50%);
+
+    width:90%;
+
+    max-width:320px;
+
+    padding:20px;
+
+}
+
+.card-images img{
+
+    width:45px;
+
+    height:45px;
+
+}
+
+.card-content h4{
+
+    font-size:18px;
+
+}
+
+.card-content p{
+
+    font-size:14px;
+
+    line-height:1.6;
+
+}
+
+.circle-1{
+
+    width:120px;
+
+    height:120px;
+
+    top:20px;
+
+    right:-40px;
+
+}
+
+.circle-2{
+
+    width:80px;
+
+    height:80px;
+
+    bottom:90px;
+
+    left:-20px;
+
+}
+
+.circle-3{
+
+    display:none;
+
+}
+
+.shape{
+
+    display:none;
+
+}
+
+}
+
+
+/*======================================
+        SMALL MOBILE
+======================================*/
+
+@media(max-width:480px){
+
+.hero{
+
+    padding:100px 0 60px;
+
+}
+
+.hero-image{
+
+    height:280px;
+
+    border-radius:25px;
+
+}
+
+.hero-text h1{
+
+    font-size:34px;
+
+}
+
+.hero-text p{
+
+    font-size:15px;
+
+}
+.hero-text h1 {
+    letter-spacing: 3px;
+}
+.hero-card{
+        display: none;
+    position:relative;
+
+    left:auto;
+
+    bottom:auto;
+
+    transform:none;
+
+    width:100%;
+
+    max-width:100%;
+
+    margin-top:20px;
+
+}
+
+.btn-primary{
+
+    height:55px;
+
+    font-size:15px;
+
+}
+
+.btn-play{
+
+    width:55px;
+
+    height:55px;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+/*======================================
+    DESTINATIONS RESPONSIVE
+======================================*/
+
+@media (max-width:991px){
+
+.destinations{
+
+    padding:90px 0;
+
+}
+
+.destination-wrapper{
+
+    position:relative;
+
+}
+
+.destination-slider{
+
+    gap:20px;
+
+    padding:10px 15px;
+
+    overflow-x:auto;
+
+    scroll-snap-type:x mandatory;
+
+    -webkit-overflow-scrolling:touch;
+
+}
+
+.destination-slider::-webkit-scrollbar{
+
+    display:none;
+
+}
+
+.destination-card{
+
+    min-width:320px;
+
+    height:420px;
+
+    scroll-snap-align:center;
+
+}
+
+.destination-overlay{
+
+    padding:30px;
+
+}
+
+.destination-overlay h3{
+
+    font-size:30px;
+
+}
+
+.destination-overlay span{
+
+    font-size:16px;
+
+}
+
+.destination-btn{
+
+    display:none;
+
+}
+
+}
+
+
+/*======================================
+        MOBILE
+======================================*/
+
+@media(max-width:768px){
+
+.destinations{
+
+    padding:70px 0;
+
+}
+
+.destinations .section-heading{
+
+    margin-bottom:40px;
+
+}
+
+.destinations .section-heading span{
+
+    font-size:13px;
+
+    letter-spacing:2px;
+
+}
+
+.destinations .section-heading h2{
+
+    font-size:34px;
+
+    line-height:1.2;
+
+}
+
+.destinations .section-heading p{
+
+    font-size:15px;
+
+    line-height:1.7;
+
+    padding:0 10px;
+
+}
+
+.destination-slider{
+
+    gap:18px;
+
+    padding:5px 20px 15px;
+
+}
+
+.destination-card{
+
+    min-width:270px;
+
+    width:270px;
+
+    height:360px;
+
+    border-radius:25px;
+
+}
+
+.destination-overlay{
+
+    padding:22px;
+
+}
+
+.destination-overlay h3{
+
+    font-size:24px;
+
+}
+
+.destination-overlay span{
+
+    font-size:14px;
+
+}
+
+.destination-overlay::before{
+
+    font-size:12px;
+
+    padding:10px 16px;
+
+    top:20px;
+
+    left:20px;
+
+}
+
+}
+
+
+/*======================================
+        SMALL MOBILE
+======================================*/
+
+@media(max-width:480px){
+
+.destinations{
+
+    padding:60px 0;
+
+}
+
+.destinations .section-heading h2{
+
+    font-size:28px;
+
+}
+
+.destinations .section-heading p{
+
+    font-size:14px;
+
+}
+
+.destination-slider{
+
+    padding:0 15px 10px;
+
+    gap:15px;
+
+}
+
+.destination-card{
+
+    min-width:240px;
+
+    width:240px;
+
+    height:320px;
+
+    border-radius:20px;
+
+}
+
+.destination-overlay{
+
+    padding:18px;
+
+}
+
+.destination-overlay h3{
+
+    font-size:22px;
+
+}
+
+.destination-overlay span{
+
+    font-size:13px;
+
+}
+
+.destination-overlay::before{
+
+    display:none;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+/*======================================
+        ABOUT HERO RESPONSIVE
+======================================*/
+
+/*=========================
+        LARGE TABLET
+=========================*/
+
+@media(max-width:1200px){
+
+.about-hero{
+
+    padding:150px 0 100px;
+
+}
+
+.about-hero-wrapper{
+
+    gap:60px;
+
+}
+
+.about-content h1{
+
+    font-size:56px;
+
+}
+
+.about-image{
+
+    height:600px;
+
+}
+
+.experience-card{
+
+    left:20px;
+
+    bottom:30px;
+
+}
+
+}
+
+/*=========================
+        TABLET
+=========================*/
+
+@media(max-width:991px){
+
+.about-hero{
+
+    padding:140px 0 90px;
+
+}
+
+.about-hero-wrapper{
+
+    grid-template-columns:1fr;
+
+    gap:60px;
+
+}
+
+.about-content{
+
+    max-width:100%;
+
+    text-align:center;
+
+}
+
+.hero-badge{
+
+    margin:0 auto 25px;
+
+}
+
+.about-content h1{
+
+    font-size:50px;
+
+}
+
+.about-content p{
+
+    max-width:700px;
+
+    margin:0 auto 35px;
+
+}
+
+    .about-buttons {
+        align-items: center;
+    }
+
+.about-image{
+
+    height:550px;
+
+    order:-1;
+
+}
+
+.experience-card{
+
+    left:50%;
+
+    bottom:30px;
+
+    transform:translateX(-50%);
+
+}
+
+.about-stats{
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:25px;
+
+}
+
+.line-1{
+
+    display:none;
+
+}
+
+.line-2{
+
+    display:none;
+
+}
+
+.circle-1{
+
+    width:70px;
+
+    height:70px;
+
+}
+
+.circle-2{
+
+    width:30px;
+
+    height:30px;
+
+}
+
+.circle-3{
+
+    display:none;
+
+}
+
+}
+
+/*=========================
+        MOBILE
+=========================*/
+
+@media(max-width:768px){
+
+.about-hero{
+
+    padding:120px 0 70px;
+
+}
+
+.about-content h1{
+
+    font-size:40px;
+
+    line-height:1.2;
+
+}
+
+.about-content p{
+
+    font-size:16px;
+
+}
+
+
+
+.about-buttons a{
+
+    width:100%;
+
+
+}
+.container {
+    width: 95%;
+    max-width: 1300px;
+    margin: auto;
+}
+.about-image{
+
+    height:420px;
+
+}
+
+.about-plane{
+
+    border-radius:30px;
+
+}
+
+.experience-card{
+
+    width:90%;
+
+    padding:18px 20px;
+
+}
+
+.experience-card i{
+
+    width:55px;
+
+    height:55px;
+
+    font-size:22px;
+
+}
+
+.experience-card h3{
+
+    font-size:22px;
+
+}
+
+.experience-card p{
+
+    font-size:14px;
+
+}
+
+.about-stats{
+
+    grid-template-columns:1fr 1fr;
+
+    gap:18px;
+
+    margin-top:60px;
+
+}
+
+.stat-box{
+
+    padding:25px 20px;
+
+    border-radius:22px;
+
+}
+
+.stat-box h2{
+
+    font-size:34px;
+
+}
+
+.stat-box span{
+
+    font-size:15px;
+
+}
+
+.hero-circle{
+
+    opacity:.5;
+
+}
+
+.circle-1{
+
+    top:100px;
+
+    right:20px;
+
+}
+
+.circle-2{
+
+    bottom:120px;
+
+    left:20px;
+
+}
+
+}
+
+/*=========================
+        SMALL MOBILE
+=========================*/
+
+@media(max-width:576px){
+
+.about-content h1{
+
+    font-size:34px;
+
+}
+
+.about-content p{
+
+    font-size:15px;
+
+}
+
+.about-image{
+
+    height:320px;
+
+}
+
+.about-plane{
+
+    border-radius:25px;
+
+}
+
+.experience-card{
+
+    position:relative;
+
+    left:0;
+
+    bottom:0;
+
+    transform:none;
+
+    width:100%;
+
+    margin-top:20px;
+
+    border-radius:20px;
+
+}
+
+.about-stats{
+
+    grid-template-columns:1fr;
+
+}
+
+.stat-box{
+
+    padding:22px;
+
+}
+
+.stat-box h2{
+
+    font-size:30px;
+
+}
+
+.hero-badge{
+
+    font-size:14px;
+
+    padding:10px 18px;
+
+}
+
+.about-buttons a{
+
+    height:55px;
+
+}
+
+}
+
+/*=========================
+        EXTRA SMALL
+=========================*/
+
+@media(max-width:400px){
+
+.about-hero{
+
+    padding:110px 0 60px;
+
+}
+
+.about-content h1{
+
+    font-size:30px;
+
+}
+
+.about-image{
+
+    height:280px;
+
+}
+
+.about-plane{
+
+    border-radius:20px;
+
+}
+
+.experience-card{
+
+    padding:16px;
+
+}
+
+.experience-card i{
+
+    width:50px;
+
+    height:50px;
+
+    font-size:20px;
+
+}
+
+.experience-card h3{
+
+    font-size:20px;
+
+}
+
+.experience-card p{
+
+    font-size:13px;
+
+}
+
+.stat-box{
+
+    border-radius:18px;
+
+}
+
+.stat-box h2{
+
+    font-size:28px;
+
+}
+
+.stat-box span{
+
+    font-size:14px;
+
+}
+
+}
